@@ -1,15 +1,37 @@
 {
   "name": "kostyasid-test",
-  "description": "MessageComponent",
-  "version": "0.0.0",
   "homepage": "https://github.com/kostyasid/kostyasid",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kostyasid/kostyasid.git"
-  },
+  "description": "MessageComponent",
+  "main": ["message-component.js"],
+  "keywords": [
+    "angular.js",
+    "modals",
+    "popups",
+    "dialog",
+    "ng",
+    "provider",
+    "factory",
+    "directive"
+  ],
+  "authors": [
+    "kostyasid"
+  ],
   "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example",
+    "css/myth",
+    "Gruntfile.js"
+  ],
   "private": true,
   "dependencies": {
-    "angular": "~1.5.0"
+    "angular": "~1.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5"
   }
 }
