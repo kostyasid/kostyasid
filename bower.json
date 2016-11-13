@@ -1,18 +1,37 @@
 {
-  "name": "quantacann2",
+  "name": "kostyasid-test",
   "homepage": "https://github.com/kostyasid/kostyasid",
-  "description": "Quantacann2 component",
-  "main": ["quantacann2-message.js"],
+  "description": "MessageComponent",
+  "main": ["message-component.js"],
+  "keywords": [
+    "angular.js",
+    "modals",
+    "popups",
+    "dialog",
+    "ng",
+    "provider",
+    "factory",
+    "directive"
+  ],
+  "authors": [
+    "kostyasid"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests",
+    "example",
+    "css/myth",
+    "Gruntfile.js"
   ],
-  "private": false,
+  "private": true,
   "dependencies": {
     "angular": "~1.5"
   },
   "devDependencies": {
+    "angular-mocks": "~1.5"
   }
 }
