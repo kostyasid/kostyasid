@@ -1,10 +1,10 @@
 {
   "name": "quantacann2",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "description": "Quantacann2 component",
   "homepage": "https://github.com/kostyasid/kostyasid",
-  "main": ["quantacann2-message/quantacann2-message.js"],
+  "main": "quantacann2-message.js",
   "license": "MIT",
   "repository": {
     "type": "git",

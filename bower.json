@@ -2,7 +2,7 @@
   "name": "quantacann2",
   "homepage": "https://github.com/kostyasid/kostyasid",
   "description": "Quantacann2 component",
-  "main": ["quantacann2-message/quantacann2-message.js"],
+  "main": ["quantacann2-message.js"],
   "license": "MIT",
   "ignore": [
     "**/.*",
