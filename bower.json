@@ -2,7 +2,10 @@
   "name": "kostyasid-test",
   "homepage": "https://github.com/kostyasid/kostyasid",
   "description": "MessageComponent",
-  "main": ["message-component.js"],
+  "main": [
+    "dist/@steephill/qc-common.js",
+    "dist/dist/quantacann2.tpls.js"
+  ],
   "keywords": [
     "angular.js",
     "modals",

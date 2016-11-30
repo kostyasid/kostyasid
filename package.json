@@ -3,9 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "description": "A starter project for AngularJS",
-  "repository": "https://github.com/kostyasid/kostyasid",
-  "main": "message-component.js",
+  "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/kostyasid/kostyasid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kostyasid/kostyasid.git"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
