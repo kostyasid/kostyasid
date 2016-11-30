@@ -39,7 +39,7 @@
     "gulp-concat": "^2.6.1"},
   "scripts": {
     "build": "gulp",
-    "postinstall": "bower install && gulp",
+    "postinstall": "bower install && gulp build",
     "prestart": "npm install"
   }
 }
