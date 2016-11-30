@@ -1,11 +1,6 @@
 var gulp = require('gulp'),
     concat = require('gulp-concat'),
-    clean = require('gulp-clean'),
-    templateCache = require('gulp-angular-templatecache'),
-    addStream = require('add-stream'),
-    uglify = require('gulp-uglify'),
-    pkg = require('./package.json'),
-    pkg_main = 'index.js';
+    clean = require('gulp-clean');
 
 gulp.task('concat', [], function () {
     return gulp.src(['index.js'])

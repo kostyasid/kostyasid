@@ -34,10 +34,12 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.2"
   },
-  "dependencies": {"gulp": "^3.9.1"},
+  "dependencies": {"gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1"},
   "scripts": {
     "build": "gulp",
-    "postinstall": "bower install",
+    "postinstall": "bower install && gulp",
     "prestart": "npm install"
   }
 }
