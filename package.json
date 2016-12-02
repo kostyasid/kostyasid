@@ -42,7 +42,7 @@
     "gulp-concat": "^2.6.1"},
   "scripts": {
     "build": "gulp",
-    "postinstall": "gulp build",
+    "install": "gulp build",
     "prestart": "npm install"
   }
 }
